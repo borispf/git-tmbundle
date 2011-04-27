@@ -7,6 +7,7 @@ end
 require ENV['TM_SUPPORT_PATH'] + '/lib/escape.rb'
 require 'shellwords'
 require 'set'
+require 'tmpdir'
 
 def shorten(path, base = nil)
   return if path.blank?
